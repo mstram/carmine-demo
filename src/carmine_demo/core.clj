@@ -12,7 +12,10 @@
   ;)
 
 (defn run-redis-test1 []
-  (def server-conn nil) ; -> #'carmine-demo.core/server-conn
+;  (def server-conn nil) ; -> #'carmine-demo.core/server-conn
+
+(def server-conn [:host "pub-redis-10388.us-east-1-4.1.ec2.garantiadata.com" :port 10388] )
+
   (defmacro wcar* [& body] `(car/wcar server-conn ~@body)) ; -> #'carmine-demo.core/wcar*
 
   (wcar*
