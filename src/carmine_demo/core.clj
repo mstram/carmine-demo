@@ -1,5 +1,6 @@
 (ns carmine-demo.core
- (require '[taoensso.carmine :as car :refer (wcar) ] ) 
+ ;(require '[taoensso.carmine :as car :refer (wcar) ] ) 
+  (:require [taoensso.carmine :as car :refer (wcar) ] ) 
   ;(ns car1
  (:gen-class)
  
