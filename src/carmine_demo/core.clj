@@ -4,6 +4,8 @@
  (:gen-class)
  
 )
+
+;leiningen
  ;(require '[taoensso.carmine :as car :refer (wcar) ]  :verbose) ; -> nil
 
   ;)

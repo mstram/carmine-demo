@@ -1,6 +1,8 @@
 # carmine-demo
 
-FIXME: description
+A minimal example for the carmine - clojure redis library
+
+In leiningen project format
 
 ## Installation
 
